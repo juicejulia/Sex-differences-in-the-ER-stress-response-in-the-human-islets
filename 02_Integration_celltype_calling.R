@@ -214,10 +214,10 @@ ERstress.integrated$cell.type.azimuth <- ifelse(ERstress.integrated$predicted.an
 
 # concordance between the manual supervised annotation and the azimuth annotation, excluding the doublets population
 sum(ERstress.integrated$cell.type.azimuth==ERstress.integrated$cell.type)
-# 119777
+# 119223
 sum(ERstress.integrated$cell.type!="doublets")
-# 135104
-# 119777/135104=0.8865541
+# 134330
+# 119223/134330=0.8875382
 
 ERstress.integrated$cell.type <- as.character(ERstress.integrated$cell.type)
 ERstress.integrated$cell.type.final <- ifelse(ERstress.integrated$predicted.annotation.l1=="epsilon","epsilon",ERstress.integrated$cell.type)                                                       
