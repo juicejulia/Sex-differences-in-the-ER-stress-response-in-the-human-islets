@@ -1,1 +1,3 @@
 # This directory contains scripts to analyze XBP1 splice site in the scRNA-seq data using Genotyping of the Transcriptomes (GoT)
+## The core function employed here is IronThron-GoT: https://github.com/dan-landau/IronThrone-GoT
+## IronThrone-GoT quantify wild-type (unspliced XBP1, uXBP1) and mutated transcripts (spliced XBP1, sXBP1) from fastq files
