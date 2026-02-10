@@ -9,6 +9,7 @@ https://github.com/dan-landau/IronThrone-GoT
 (1) Processing of sequencing reads with IronThrone-GoT. See example folder for file structure and config file layout. 
 
 (2) Run the Combine_IronThrone_Parallel_Output.R. 
+
 Modified from https://github.com/dan-landau/IronThrone-GoT/blob/master/Combine_IronThrone_Parallel_Output.R
 
 (3) Run the analysis.R file to generate plots corresponding to the smoothened sXPB1 uXBP1 with pseudotime. 
