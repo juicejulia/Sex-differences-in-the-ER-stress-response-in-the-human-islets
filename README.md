@@ -8,3 +8,4 @@ This repository hosts the codes to generate analysis and figures for Sex differe
 3. Differential expression: 03_Differential_expression_pseudobulk.R
 4. AddModuleScore for UPR pathway markers: 04_UPR.R
 5. Slingshot pseudotime analysis: 05_Pseudotime.R
+6. XBP1_GoT
