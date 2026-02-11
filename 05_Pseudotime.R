@@ -235,5 +235,5 @@ matchingHeatmap_male <-
 
 plot_grid(heatSmooth_female[[4]], matchingHeatmap_male[[4]], ncol = 2)
 
-
+saveRDS(beta_sce,"beta_sub_sce_filtered_MNN.rds")
 
